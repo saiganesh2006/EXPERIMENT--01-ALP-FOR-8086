@@ -97,7 +97,7 @@ mov al,24h
 mov bl,14h
 sub al,bl
 hlt
-
+ret
 ```
 ## Output:
 ![image](https://github.com/user-attachments/assets/d8704e66-a0c4-4285-a3b6-eacc13cb24bd)
@@ -135,6 +135,7 @@ MOV [SI],AX;
 MOV AX,0A32H;
 MOV BX,0B13H;
 AND AX,BX;
+ret
 ```
 
 ## Output:
@@ -160,6 +161,7 @@ MOV [SI+4],AX;
 MOV AX,0A32H;
 NOT AX;
 MOV [SI+6],AX;
+ret
 ```
 
 ## Output:
